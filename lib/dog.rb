@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
 
   attr_accessor :name
@@ -7,7 +9,7 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
-    binding.pry 
+    binding.pry
   end
 
   def self.all
