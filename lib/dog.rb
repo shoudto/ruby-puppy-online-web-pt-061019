@@ -19,7 +19,7 @@ class Dog
     @@all.clear
   end
 
-  # def self.print_all
-  #   binding.pry
-  # end
+  def self.print_all
+    binding.pry
+  end
 end
