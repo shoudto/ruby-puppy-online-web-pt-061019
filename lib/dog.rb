@@ -22,4 +22,8 @@ class Dog
   def self.print_all
     @@all.each {|pup| puts pup.name}
   end
+
+  def save 
+    self.save 
+  end 
 end
